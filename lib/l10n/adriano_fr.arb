@@ -1,0 +1,15 @@
+{
+  "likeTitle": "Aimez-vous l'application ?",
+  "likeMsg": "Nous travaillons dur pour la rendre utile. L'appréciez-vous ?",
+  "btnYes": "Oui, j'adore !",
+  "btnNo": "Pas vraiment...",
+  "rateTitle": "Donnez-nous 5 étoiles !",
+  "rateMsg": "Génial ! Cela nous aiderait beaucoup si vous laissiez un avis rapide sur le store.",
+  "btnRate": "Noter maintenant",
+  "btnLater": "Plus tard",
+  "feedTitle": "Comment pouvons-nous nous améliorer ?",
+  "feedHint": "Écrivez votre suggestion ici...",
+  "btnSend": "Envoyer",
+  "btnCancel": "Annuler",
+  "emailSubject": "Commentaires App"
+}

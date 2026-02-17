@@ -1,0 +1,15 @@
+{
+  "likeTitle": "Ti piace l'app?",
+  "likeMsg": "Stiamo lavorando sodo per renderla utile. Ti stai trovando bene?",
+  "btnYes": "Sì, molto!",
+  "btnNo": "Non tanto...",
+  "rateTitle": "Dacci 5 stelle!",
+  "rateMsg": "Fantastico! Ci aiuteresti tantissimo lasciando una recensione veloce sullo store.",
+  "btnRate": "Valuta ora",
+  "btnLater": "Più tardi",
+  "feedTitle": "Come possiamo migliorare?",
+  "feedHint": "Scrivi qui il tuo suggerimento...",
+  "btnSend": "Invia Feedback",
+  "btnCancel": "Annulla",
+  "emailSubject": "Feedback App"
+}
