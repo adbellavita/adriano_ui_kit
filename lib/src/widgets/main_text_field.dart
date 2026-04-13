@@ -129,8 +129,17 @@ class MainTextField extends StatelessWidget {
       case InputType.integer:
         return [FilteringTextInputFormatter.digitsOnly];
       case InputType.decimal:
-        // Nota: consentiamo sia punto che virgola per gestire tastiere IT/EN
-        return [FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]'))];
+        // Consente numeri con al massimo un separatore decimale (punto o virgola)
+        return [
+          TextInputFormatter.withFunction((oldValue, newValue) {
+            if (newValue.text.isEmpty) return newValue;
+            final regExp = RegExp(r'^\d*[\.,]?\d*$');
+            if (regExp.hasMatch(newValue.text)) {
+              return newValue;
+            }
+            return oldValue;
+          })
+        ];
       case InputType.text:
         return [];
     }

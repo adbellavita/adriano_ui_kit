@@ -14,7 +14,6 @@ class AppTheme {
         primary: AppColors.emeraldPrimary,
         surface: AppColors.midnightSurface,
         onSurface: AppColors.textWhite,
-        background: AppColors.midnightBackground,
       ),
 
       appBarTheme: const AppBarTheme(
@@ -50,7 +49,6 @@ class AppTheme {
         primary: AppColors.emeraldPrimary,
         surface: AppColors.lightSurface,
         onSurface: AppColors.textBlack,
-        background: AppColors.lightBackground,
       ),
 
       appBarTheme: const AppBarTheme(
